@@ -1,19 +1,20 @@
-# Análise de Precificação e Depreciação Automotiva
+# Inteligência de Mercado e Predição de Depreciação Automotiva
 
 <img width="2228" height="719" alt="image" src="https://github.com/user-attachments/assets/c24af076-daf0-4ae1-85c4-ca3635f8b2b7" />
 
 ---
 ### 📌 Sobre o Projeto
 
-Este projeto realiza uma Análise Diagnóstica e Descritiva profunda sobre os fatores que influenciam o preço de revenda de veículos. Utilizando um dataset do Kaggle, a análise desafia a métrica convencional de que a quilometragem é o único fator de desvalorização, explorando correlações entre potência de motor, tipo de transmissão e prestígio de marca.
-O objetivo foi transformar dados brutos em insights estratégicos que poderiam auxiliar em decisões de compra, venda ou gestão de estoque.
+O mercado de revenda de veículos frequentemente utiliza métricas simplistas (como apenas o ano ou a quilometragem) para precificar ativos. Isso gera janelas de ineficiência: veículos sendo vendidos abaixo do valor de mercado por puro viés de quilometragem, ou estoques parados por falta de compreensão sobre quais opcionais (como transmissão) realmente retêm valor.
+
+O Desafio: Identificar quais variáveis, além da quilometragem, são os verdadeiros "âncoras" de preço para otimizar a margem de lucro em operações de compra e venda.
 
 ---
 ### 🛠️ Stack Tecnológica
 
 ▪Banco de Dados: SQL Server (T-SQL)
 
-▪Processamento & Visualização: Microsoft Excel 
+▪Processamento & Visualização: Microsoft Excel e Power Point 
 
 ---
 
@@ -46,6 +47,7 @@ Transmissão vs. Condição: Impacto da tecnologia (Automático/Manual) aliado a
 <img width="2241" height="508" alt="image" src="https://github.com/user-attachments/assets/f65473a4-4926-43c8-98b2-29baf3ffd1ed" />
 
 
+---
 Resiliência das Marcas Premium: Marcas de luxo como a BMW principalmente que possui 358 veículos sendo o modelo com média mais caro, e modelos com motorização superior (Engine Size) apresentam uma curva de depreciação muito mais suave. Em muitos casos, um veículo de luxo com "Alta KM" supera o valor de um popular "Baixa KM".
 
 O Fator Transmissão: O mercado apresenta uma valorização acentuada para carros automáticos. A conveniência tecnológica atua como um "piso" de preço, protegendo o ativo contra a desvalorização por uso. Ficando claro que apenas nos carros novos os manuais tem um valor médio maior, muito provavelmente por venderem mais.
