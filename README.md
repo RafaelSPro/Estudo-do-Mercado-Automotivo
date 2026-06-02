@@ -10,6 +10,18 @@ O mercado de revenda de veículos frequentemente utiliza métricas simplistas (c
 O Desafio: Identificar quais variáveis, além da quilometragem, são os verdadeiros "âncoras" de preço para otimizar a margem de lucro em operações de compra e venda.
 
 ---
+
+### 📊 Principais Resultados
+
+• BMW apresentou a maior média de preço entre as marcas analisadas.
+
+• Veículos automáticos apresentaram maior retenção de valor.
+
+• Motorização mostrou impacto superior à quilometragem na manutenção do preço.
+
+• Veículos premium mantiveram preços elevados mesmo em faixas de alta quilometragem.
+
+---
 ### 🛠️ Stack Tecnológica
 
 ▪Banco de Dados: SQL Server (T-SQL)
@@ -53,6 +65,23 @@ Resiliência das Marcas Premium: Marcas de luxo como a BMW principalmente que po
 O Fator Transmissão: O mercado apresenta uma valorização acentuada para carros automáticos. A conveniência tecnológica atua como um "piso" de preço, protegendo o ativo contra a desvalorização por uso. Ficando claro que apenas nos carros novos os manuais tem um valor médio maior, muito provavelmente por venderem mais.
 
 Matriz de Conservação: A condição do veículo (Condition) é um diferencial competitivo, mas a motorização robusta provou ser o maior preditor de retenção de valor a longo prazo.
+
+---
+### 🔧 Competências Demonstradas
+
+• SQL Server
+
+• Limpeza e transformação de dados
+
+• Agregações e funções analíticas
+
+• Segmentação de dados (Bucketing)
+
+• Análise exploratória
+
+• Storytelling com dados
+
+• Excel para visualização
 
 ### 🚀 Como Executar o Projeto
 Importe o dataset.csv para o ambiente SQL Server.
